@@ -41,7 +41,7 @@ public class DetailActivity extends AppCompatActivity {
         poster_path = getIntent().getStringExtra("poster_path");
         Log.d("titil",""+title);
         btn_delete=findViewById(R.id.ui_delete);
-        ui_title=(TextView) findViewById(R.id.ui_nama);
+        ui_title=(TextView) findViewById(R.id.ui_title);
         ui_release_date=(TextView) findViewById(R.id.ui_date);
         ui_overview=(TextView) findViewById(R.id.ui_overview);
         ui_vote_count=(TextView) findViewById(R.id.ui_vote);
